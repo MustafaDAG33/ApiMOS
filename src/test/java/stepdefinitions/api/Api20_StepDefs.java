@@ -34,7 +34,7 @@ public class Api20_StepDefs {
 
     @Given("teacher hesabiyla tum toplantilari cagir")
     public void teacher_hesabiyla_tum_toplantilari_cagir() {
-        spec.pathParams("first","meet","second","getAllMeetByAdvisorTeacherAsList");
+        spec.pathParams("first","mee","second","getAllMeetByAdvisorTeacherAsList");
         response=given(spec).get("{first}/{second}");
         response.prettyPrint();
     }
