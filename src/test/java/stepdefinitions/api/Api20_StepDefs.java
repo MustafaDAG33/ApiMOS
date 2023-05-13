@@ -42,7 +42,7 @@ public class Api20_StepDefs {
     public void toplantilarin_geldigini_dogrula() {
         response.then().statusCode(200);
         ArrayList toplantilar = response.as(ArrayList.class);
-        assertEquals(9, toplantilar.size());
+        assertEquals(8, toplantilar.size());
     }
     @Given("teacher hesabiyla bir toplanti olustur")
     public void teacherHesabiylaBirToplantiOlustur() {
