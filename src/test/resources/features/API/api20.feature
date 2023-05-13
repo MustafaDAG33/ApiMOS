@@ -2,7 +2,7 @@
 Feature: Teacher Toplantilari Gorebilmeli Guncelleyebilmeli ve Silebilmeli
 
   Scenario: TC01 Toplanti Olustur
-    Given "AydinOnan" ve "Aydin Onan" ile token al
+    Given "AydinOnan" ve "Aydin Onan" ile token all
     Given teacher hesabiyla bir toplanti olustur
     Then beklenen toplantinin oldugunu dogrula
 
